@@ -13,7 +13,7 @@ import talib as tl
     # 止盈百分比
     g.cut_gain_percentage = 0.2
     # 止损百分比
-    g.cut_loss_percentage = 0.5
+    g.cut_loss_percentage = 0.7
  
 ## 形态和成交额选股
 def check_stocks(context):
