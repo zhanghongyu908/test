@@ -5,14 +5,7 @@ import numpy as np
 import talib as tl
 ## 初始化函数，设定要操作的股票、基准等等
 
-    g.buylist=[]
-    # 持仓数量
-    g.stocknum =10
-    # 持仓天数
-    g.holdDays=[]
-    for days in range(0,7):
-        g.holdDays.append([])
-
+    
     # 股票买入金额 
     g.cash_per_stock = context.portfolio.portfolio_value / g.stocknum
     # 运行函数
